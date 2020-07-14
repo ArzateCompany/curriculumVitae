@@ -1,11 +1,10 @@
 import React from 'react';
+import './css/Header.css';
 
 const Header = () => {
   return (
     <header className="perfil">
-      <div className="perfil__image">
-        <i className="fas fa-user-circle"></i>
-      </div>
+      <i className="perfil__image fas fa-user-circle"></i>
       <div className="perfil__content">
         <h1>Header-tittle</h1>
         <p>Header-job-title</p>

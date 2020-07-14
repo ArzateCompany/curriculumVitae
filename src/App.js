@@ -6,6 +6,8 @@ import Academic from './components/Academic';
 import Skills from './components/Skills';
 import Interest from './components/Interest';
 import Lenguages from './components/Lenguages';
+import './css/App.css';
+import './css/Global.css';
 
 const App = () => {
   return (
@@ -13,11 +15,11 @@ const App = () => {
       <Header />
       <Profile />
       <Experience />
-      <div>
+      <div className="two-sections">
         <Academic />
         <Skills />
       </div>
-      <div>
+      <div className="two-sections">
         <Interest />
         <Lenguages />
       </div>

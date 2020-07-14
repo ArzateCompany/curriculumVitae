@@ -1,0 +1,25 @@
+.experience {
+  background-color: var(--colorSecundary);
+  padding: var(--spacingx1);
+  padding-left: var(--spacingx3);
+  min-height: 130px;
+  margin: 0px var(--spacingMiddle);
+  margin-bottom: var(--spacingx1);
+}
+
+.experience div {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .experience {
+    padding-left: var(--spacingx1);
+    margin: var(--spacingMin);
+    text-align: center;
+  }
+
+  .experience div {
+    justify-content: center;
+  }
+}

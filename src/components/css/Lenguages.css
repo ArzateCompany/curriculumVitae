@@ -1,0 +1,18 @@
+.lenguages {
+  width: 100%;
+  background-color: var(--colorSecundary);
+  padding: var(--spacingx1);
+  padding-left: var(--spacingx3);
+  min-height: 130px;
+  margin-right:var(--spacingMiddle);
+  margin-bottom: var(--spacingx1);
+}
+
+@media screen and (max-width:320px) {
+  .lenguages {
+    width: auto;
+    padding: var(--spacingx1);
+    margin: var(--spacingMin);
+    text-align: center;
+  }
+}

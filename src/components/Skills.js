@@ -1,8 +1,9 @@
 import React from 'react';
+import './css/Skills.css';
 
 const Skills = () => {
   return (
-    <section className="Skills">
+    <section className="skills">
       <h1>Skills-title</h1>
       <p>Skills-item</p>
     </section>

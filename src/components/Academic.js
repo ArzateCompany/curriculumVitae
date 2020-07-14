@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/Academic.css';
 
 const Academic = () => {
   return (

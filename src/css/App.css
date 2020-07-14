@@ -1,0 +1,10 @@
+.two-sections {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:320px) {
+  .two-sections {
+    display: block;
+  }
+}

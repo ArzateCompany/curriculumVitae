@@ -1,0 +1,54 @@
+:root {
+  /*SPACING*/
+--spacingMin: 5px;
+--spacingx1: 10px;
+--spacingMiddle: 15px;
+--spacingx2: 20px;
+--spacingx3: 30px;
+  /*COLORS*/
+  --colorPrincipal: #101E5A;
+  --colorSecundary: #5D80B6;
+  --colorClear: #F7F8F9;
+  /*FONTS*/
+  --titleFont: 'Roboto', sans-serif;
+  --textFont: 'Arial';
+  /*FONT SIZE*/
+  --sizeTitle: 1.93em;
+  --sizeText: 1.12em;
+  --sizeIcon: 10.43em;
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--titleFont);
+  font-size: var(--sizeTitle);
+  font-weight: bold;
+  color: var(--colorClear);
+}
+
+p {
+  font-family: var(--textFont);
+  font-size: var(--sizeText);
+  margin-left: var(--spacingMiddle);
+  margin-top: var(--spacingMin);
+  color: var(--colorClear);
+}
+
+@media screen and (max-width: 320px) {
+  *{
+    box-sizing: initial;
+  }
+
+  html {
+    font-size: 11px;
+  }
+}
